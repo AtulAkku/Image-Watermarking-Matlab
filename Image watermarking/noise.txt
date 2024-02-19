@@ -1,0 +1,20 @@
+Gaussian Noise:
+
+Mean: This parameter represents the average value of the noise distribution. A higher mean indicates larger deviations from the original pixel values.
+Standard Deviation: This parameter quantifies the spread of the noise around the mean. A higher standard deviation indicates more significant variations in the noise intensity.
+
+
+Poisson Noise:
+
+Lambda: This parameter represents the average intensity of the noise per pixel. A higher lambda value leads to more frequent and intense noise occurrences.
+
+
+Salt-and-Pepper Noise:
+
+Density: This parameter represents the proportion of pixels affected by the noise. A higher density results in a more noticeable grainy appearance in the image.
+The specific parameters chosen for each type of noise depend on the desired effect and the intended application. For example:
+
+Gaussian noise is often used to simulate sensor noise or thermal noise in images. The mean and standard deviation are adjusted to achieve a realistic noise level.
+Poisson noise is suitable for modeling images acquired under low-light conditions or with photon-counting detectors. The lambda parameter determines the granularity of the noise.
+Salt-and-pepper noise can represent impulsive noise from faulty sensors or transmission errors. The density controls the amount of noise artifacts in the image.
+Understanding the meaning of these parameters and their influence on the noise characteristics is essential for choosing appropriate values and interpreting the results of noise analysis and noise reduction algorithms.
